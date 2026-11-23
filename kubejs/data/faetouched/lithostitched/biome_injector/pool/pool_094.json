@@ -1,0 +1,20 @@
+{
+  "type": "lithostitched:force_placement",
+  "dimension": "minecraft:overworld",
+  "biome": "twilightforest:dense_forest",
+  "parameters": {
+    "faetouched:pool/dist": {
+      "max_inclusive": 85
+    },
+    "faetouched:pool/pick": {
+      "min_inclusive": 0.903846,
+      "max_inclusive": 0.913461
+    },
+    "continentalness": {
+      "min_inclusive": 0.03
+    },
+    "depth": {
+      "max_inclusive": 0.15
+    }
+  }
+}

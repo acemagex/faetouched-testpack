@@ -1,0 +1,7 @@
+{
+  "parent": "faetouched:block/gas_layer_down_8",
+  "textures": {
+    "gas": "kubejs:block/thin_fluid_still",
+    "particle": "kubejs:block/thin_fluid_still"
+  }
+}

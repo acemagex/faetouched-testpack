@@ -1,0 +1,9 @@
+{
+  "type": "lithostitched:replace_fully",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "terralith:temperate_highlands"
+  ],
+  "replacement": "biomeswevegone:enchanted_tangle"
+}

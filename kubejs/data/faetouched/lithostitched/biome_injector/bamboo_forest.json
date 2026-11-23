@@ -1,0 +1,9 @@
+{
+  "type": "lithostitched:replace_fully",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "minecraft:bamboo_jungle"
+  ],
+  "replacement": "regions_unexplored:bamboo_forest"
+}

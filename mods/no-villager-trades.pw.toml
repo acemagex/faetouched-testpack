@@ -1,0 +1,13 @@
+name = "No Villager Trades"
+filename = "no-villager-trades-4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/wBeSwNXu/versions/lrdDUzxM/no-villager-trades-4.jar"
+hash-format = "sha512"
+hash = "e810d16b03c2fbe1955216c603aeb4be9465376fe6780acd0b2c421a2d944b0eb991a5ff23121e43ab49174c854a7ee864e16e094c979c6cc4706d0a2562313f"
+
+[update]
+[update.modrinth]
+mod-id = "wBeSwNXu"
+version = "lrdDUzxM"

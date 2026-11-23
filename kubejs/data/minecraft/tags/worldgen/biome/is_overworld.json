@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "twilightforest:clearing",
+    "twilightforest:dark_forest",
+    "twilightforest:dense_forest",
+    "twilightforest:dense_mushroom_forest",
+    "twilightforest:enchanted_forest",
+    "twilightforest:fire_swamp",
+    "twilightforest:firefly_forest",
+    "twilightforest:forest",
+    "twilightforest:mushroom_forest",
+    "twilightforest:spooky_forest",
+    "twilightforest:stream",
+    "twilightforest:swamp"
+  ]
+}

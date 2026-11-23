@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "lithostitched:cellular",
+    "grid_dimensions": {
+      "horizontal": 720
+    },
+    "jitter": 0.4,
+    "return_type": "distance_1",
+    "salt": 7731
+  },
+  "argument2": {
+    "type": "minecraft:mul",
+    "argument1": {
+      "type": "minecraft:shifted_noise",
+      "noise": "faetouched:pool_edge",
+      "shift_x": 0,
+      "shift_y": 0,
+      "shift_z": 0,
+      "xz_scale": 1,
+      "y_scale": 0
+    },
+    "argument2": 85
+  }
+}

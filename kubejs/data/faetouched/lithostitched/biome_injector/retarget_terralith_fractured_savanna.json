@@ -1,0 +1,9 @@
+{
+  "type": "lithostitched:replace_fully",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "terralith:fractured_savanna"
+  ],
+  "replacement": "terralith:savanna_badlands"
+}

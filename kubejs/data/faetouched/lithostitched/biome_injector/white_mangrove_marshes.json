@@ -1,0 +1,9 @@
+{
+  "type": "lithostitched:replace_fully",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "minecraft:mangrove_swamp"
+  ],
+  "replacement": "biomeswevegone:white_mangrove_marshes"
+}

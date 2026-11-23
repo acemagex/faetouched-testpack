@@ -1,0 +1,15 @@
+{
+  "type": "lithostitched:force_placement",
+  "dimension": "minecraft:overworld",
+  "biome": "minecraft:lush_caves",
+  "priority": 900,
+  "parameters": {
+    "depth": {
+      "max_inclusive": -0.2
+    },
+    "faetouched:cave_zone/pick": {
+      "min_inclusive": 0,
+      "max_inclusive": 0.039375
+    }
+  }
+}

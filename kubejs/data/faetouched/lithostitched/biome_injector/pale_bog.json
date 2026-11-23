@@ -1,0 +1,9 @@
+{
+  "type": "lithostitched:replace_fully",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "terralith:ice_marsh"
+  ],
+  "replacement": "biomeswevegone:pale_bog"
+}

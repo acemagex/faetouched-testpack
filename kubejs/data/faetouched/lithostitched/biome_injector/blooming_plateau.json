@@ -1,0 +1,9 @@
+{
+  "type": "lithostitched:replace_fully",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "minecraft:cherry_grove"
+  ],
+  "replacement": "terralith:blooming_plateau"
+}

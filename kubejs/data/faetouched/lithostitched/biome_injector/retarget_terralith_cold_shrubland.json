@@ -1,0 +1,9 @@
+{
+  "type": "lithostitched:replace_fully",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "terralith:cold_shrubland"
+  ],
+  "replacement": "terralith:snowy_badlands"
+}

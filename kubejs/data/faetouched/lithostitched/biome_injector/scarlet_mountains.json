@@ -1,0 +1,10 @@
+{
+  "type": "lithostitched:replace_fully",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "terralith:alpine_grove",
+    "terralith:emerald_peaks"
+  ],
+  "replacement": "terralith:scarlet_mountains"
+}

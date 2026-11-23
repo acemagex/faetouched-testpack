@@ -1,0 +1,15 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "biomesoplenty:shrubland"
+  ],
+  "replacement": "biomesoplenty:volcanic_plains",
+  "parameters": {
+    "weirdness": {
+      "min_inclusive": -0.0854,
+      "max_inclusive": 0.0025
+    }
+  }
+}

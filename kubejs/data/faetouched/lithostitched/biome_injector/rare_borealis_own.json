@@ -1,0 +1,15 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "biomeswevegone:eroded_borealis"
+  ],
+  "replacement": "terralith:snowy_badlands",
+  "parameters": {
+    "weirdness": {
+      "min_inclusive": -2,
+      "max_inclusive": -0.0001
+    }
+  }
+}

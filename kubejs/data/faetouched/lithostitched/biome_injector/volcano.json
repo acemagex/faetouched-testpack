@@ -1,0 +1,10 @@
+{
+  "type": "lithostitched:replace_fully",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "terralith:volcanic_crater",
+    "terralith:volcanic_peaks"
+  ],
+  "replacement": "biomesoplenty:volcano"
+}

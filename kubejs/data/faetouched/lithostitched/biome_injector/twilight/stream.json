@@ -1,0 +1,19 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "minecraft:river"
+  ],
+  "replacement": "twilightforest:stream",
+  "parameters": {
+    "temperature": {
+      "min_inclusive": 0.2,
+      "max_inclusive": 0.55
+    },
+    "humidity": {
+      "min_inclusive": 0.1,
+      "max_inclusive": 2
+    }
+  }
+}

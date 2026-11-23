@@ -1,0 +1,20 @@
+{
+  "type": "lithostitched:force_placement",
+  "dimension": "minecraft:overworld",
+  "biome": "biomesoplenty:pumpkin_patch",
+  "parameters": {
+    "faetouched:pool/dist": {
+      "max_inclusive": 85
+    },
+    "faetouched:pool/pick": {
+      "min_inclusive": 0.096154,
+      "max_inclusive": 0.105768
+    },
+    "continentalness": {
+      "min_inclusive": 0.03
+    },
+    "depth": {
+      "max_inclusive": 0.15
+    }
+  }
+}

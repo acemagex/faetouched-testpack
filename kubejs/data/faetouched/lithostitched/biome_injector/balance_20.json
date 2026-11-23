@@ -1,0 +1,15 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "biomeswevegone:prairie"
+  ],
+  "replacement": "terralith:red_oasis",
+  "parameters": {
+    "weirdness": {
+      "min_inclusive": -0.3462,
+      "max_inclusive": -0.1524
+    }
+  }
+}

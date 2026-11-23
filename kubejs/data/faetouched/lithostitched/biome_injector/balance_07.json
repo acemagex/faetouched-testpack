@@ -1,0 +1,15 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "minecraft:forest"
+  ],
+  "replacement": "regions_unexplored:bamboo_forest",
+  "parameters": {
+    "weirdness": {
+      "min_inclusive": 0.2558,
+      "max_inclusive": 0.2878
+    }
+  }
+}

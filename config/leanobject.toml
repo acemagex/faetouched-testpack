@@ -1,0 +1,56 @@
+#Internal config schema version - do not change
+configVersion = 3
+#On world join, force a GC and log heap usage (MB) for memory debugging
+loggingInGC = true
+#Master switch for every LeanObject optimization
+enabled = true
+
+	#Fast NBT Collection
+	[features.nbt]
+		#Replaces the map and list backing CompoundTag and ListTag with leaner containers, rewritten at the allocation site so the vanilla ones are never created.
+		enabled = true
+
+	#Ingredient Deduplication
+	[features.ingredient]
+		#Shares one Ingredient per single-item or per-tag use, so its lazily built itemStacks array and stackingIds list exist once instead of once per recipe, and the construction itself skips re-building the value list.
+		enabled = true
+
+	#ResourceKey Deduplication
+	[features.resourceKey]
+		#Injection strategy:
+		#  false = @Overwrite - faster, fully replaces the target method
+		#  true  = @Inject    - more compatible, wraps the original method
+		#Enable only when another mod conflicts with the overwrite path
+		safeMode = false
+		#Replaces vanilla ResourceKey interning to cut allocations and speed up creation
+		enabled = true
+
+	#Simplify Model Objects
+	[features.model]
+		#Moves the model bakery's lookup maps and the baked models' face and selector lists onto more compact containers. Client side.
+		enabled = true
+
+	#TagKey Deduplication & Identity Mode
+	[features.tagKey]
+		#Injection strategy:
+		#  false = @Overwrite - faster, fully replaces the target method
+		#  true  = @Inject    - more compatible, wraps the original method
+		#Enable only when another mod conflicts with the overwrite path
+		safeMode = false
+		#Faster TagKey creation via custom interning; equals/hashCode use identity semantics for cheaper HashMap lookups (items, fluids, entities, worlds, etc.)
+		enabled = true
+
+	#ResourceLocation Deduplication & Identity Mode
+	[features.resourceLocation]
+		#Injection strategy:
+		#  false = @Overwrite - faster, fully replaces the target method
+		#  true  = @Inject    - more compatible, wraps the original method
+		#Enable only when another mod conflicts with the overwrite path
+		safeMode = false
+		#One instance per namespace:path, with equals/hashCode reduced to identity. Saves both memory and the string comparisons every registry lookup would otherwise pay, at the cost of a cache probe on each creation.
+		enabled = true
+
+	#AEKey Deduplication & Identity Mode
+	[features.aeKey]
+		#One AE2 storage key per logical item or fluid value, with equals/hashCode reduced to identity, so a large ME network stops allocating and hashing a key per lookup.
+		enabled = true

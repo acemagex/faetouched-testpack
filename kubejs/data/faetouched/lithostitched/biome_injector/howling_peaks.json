@@ -1,0 +1,11 @@
+{
+  "type": "lithostitched:replace_fully",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "minecraft:frozen_peaks",
+    "minecraft:jagged_peaks",
+    "terralith:rocky_mountains"
+  ],
+  "replacement": "biomeswevegone:howling_peaks"
+}

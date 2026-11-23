@@ -1,0 +1,13 @@
+name = "Sophisticated Building"
+filename = "sophisticatedbuilding-neoforge-1.21.1-5.1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Nw3rEYBH/versions/M0XG29AD/sophisticatedbuilding-neoforge-1.21.1-5.1.2.jar"
+hash-format = "sha512"
+hash = "4d13dd09dcfb4c995684fd8e73e809a3e045a2b96095329acbcb59926f79e6c0839bbea3bb9c668edbfc83cb219669b9d96415fa430549c8790102c1a983db1b"
+
+[update]
+[update.modrinth]
+mod-id = "Nw3rEYBH"
+version = "M0XG29AD"

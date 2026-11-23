@@ -1,0 +1,15 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "minecraft:plains"
+  ],
+  "replacement": "twilightforest:clearing",
+  "parameters": {
+    "weirdness": {
+      "min_inclusive": 0.4,
+      "max_inclusive": 2
+    }
+  }
+}

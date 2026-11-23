@@ -1,0 +1,20 @@
+{
+  "type": "lithostitched:force_placement",
+  "dimension": "minecraft:overworld",
+  "biome": "biomeswevegone:weeping_witch_forest",
+  "parameters": {
+    "faetouched:pool/dist": {
+      "max_inclusive": 85
+    },
+    "faetouched:pool/pick": {
+      "min_inclusive": 0.355769,
+      "max_inclusive": 0.365384
+    },
+    "continentalness": {
+      "min_inclusive": 0.03
+    },
+    "depth": {
+      "max_inclusive": 0.15
+    }
+  }
+}

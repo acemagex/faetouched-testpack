@@ -1,0 +1,10 @@
+{
+  "type": "lithostitched:replace_fully",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "biomeswevegone:frosted_coniferous_forest",
+    "terralith:snowy_maple_forest"
+  ],
+  "replacement": "biomesoplenty:snowy_maple_woods"
+}

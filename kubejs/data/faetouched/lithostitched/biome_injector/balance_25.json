@@ -1,0 +1,15 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "biomeswevegone:weeping_witch_forest"
+  ],
+  "replacement": "biomeswevegone:pale_bog",
+  "parameters": {
+    "weirdness": {
+      "min_inclusive": -0.3259,
+      "max_inclusive": -0.1241
+    }
+  }
+}

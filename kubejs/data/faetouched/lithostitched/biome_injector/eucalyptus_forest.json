@@ -1,0 +1,9 @@
+{
+  "type": "lithostitched:replace_fully",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "minecraft:wooded_badlands"
+  ],
+  "replacement": "regions_unexplored:eucalyptus_forest"
+}

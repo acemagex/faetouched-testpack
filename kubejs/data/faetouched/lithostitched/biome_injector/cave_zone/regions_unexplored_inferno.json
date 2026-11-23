@@ -1,0 +1,15 @@
+{
+  "type": "lithostitched:force_placement",
+  "dimension": "minecraft:overworld",
+  "biome": "regions_unexplored:inferno",
+  "priority": 900,
+  "parameters": {
+    "depth": {
+      "max_inclusive": -0.2
+    },
+    "faetouched:cave_zone/pick": {
+      "min_inclusive": 0.590625,
+      "max_inclusive": 0.63
+    }
+  }
+}

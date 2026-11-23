@@ -1,0 +1,13 @@
+name = "Mending + Infinity"
+filename = "mending-+-infinity-(by-uiinpui)-1.21-26.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/uINnzDDM/versions/ANrl2o3r/mending-%2B-infinity-%28by-uiinpui%29-1.21-26.2.jar"
+hash-format = "sha512"
+hash = "a6c534169e6ae30cb97db381210691356f92dca500e2d6ea9ca7190d2ae499d8a404432263fb5d9e72b43a5e2506247874864efb26db06b1af5e59928cfbaf7c"
+
+[update]
+[update.modrinth]
+mod-id = "uINnzDDM"
+version = "ANrl2o3r"

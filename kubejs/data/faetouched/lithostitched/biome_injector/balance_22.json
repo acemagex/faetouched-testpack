@@ -1,0 +1,15 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "biomesoplenty:rainforest"
+  ],
+  "replacement": "terralith:amethyst_rainforest",
+  "parameters": {
+    "weirdness": {
+      "min_inclusive": -0.2461,
+      "max_inclusive": -0.1297
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "minecraft:plains"
+  ],
+  "replacement": "biomeswevegone:rose_fields",
+  "parameters": {
+    "weirdness": {
+      "min_inclusive": -0.0604,
+      "max_inclusive": 0.0376
+    }
+  }
+}

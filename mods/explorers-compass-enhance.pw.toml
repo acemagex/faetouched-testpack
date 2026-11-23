@@ -1,0 +1,13 @@
+name = "Explorer's Compass Enhance"
+filename = "Explorer's Compass Enhance-1.21.1-neoforge-2.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "77b7b15d407e71868a80ef2fcfaf35de2a406b34"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9309130
+project-id = 1649198

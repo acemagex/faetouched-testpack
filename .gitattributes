@@ -1,0 +1,6 @@
+# Store every file byte-for-byte: index.toml records each file's sha256, and the
+# updater rejects a file whose line endings git rewrote.
+* -text
+*.jar binary
+*.zip binary
+*.png binary

@@ -1,0 +1,15 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "biomeswevegone:skyris_vale"
+  ],
+  "replacement": "biomeswevegone:fragment_jungle",
+  "parameters": {
+    "weirdness": {
+      "min_inclusive": -2,
+      "max_inclusive": -0.2434
+    }
+  }
+}

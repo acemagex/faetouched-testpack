@@ -1,0 +1,11 @@
+{
+  "type": "lithostitched:replace_fully",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "minecraft:snowy_taiga",
+    "terralith:snowy_shield",
+    "terralith:wintry_forest"
+  ],
+  "replacement": "regions_unexplored:frozen_pine_taiga"
+}

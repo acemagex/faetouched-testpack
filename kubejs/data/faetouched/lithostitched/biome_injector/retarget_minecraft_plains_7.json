@@ -1,0 +1,15 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "minecraft:plains"
+  ],
+  "replacement": "terralith:lavender_valley",
+  "parameters": {
+    "weirdness": {
+      "min_inclusive": 0.1926,
+      "max_inclusive": 0.2523
+    }
+  }
+}

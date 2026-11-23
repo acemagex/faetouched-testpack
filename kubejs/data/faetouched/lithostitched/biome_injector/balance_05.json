@@ -1,0 +1,15 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "minecraft:forest"
+  ],
+  "replacement": "biomeswevegone:sakura_grove",
+  "parameters": {
+    "weirdness": {
+      "min_inclusive": 0.15,
+      "max_inclusive": 0.2256
+    }
+  }
+}

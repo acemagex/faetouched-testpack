@@ -1,0 +1,15 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "biomesoplenty:shrubland"
+  ],
+  "replacement": "terralith:white_cliffs",
+  "parameters": {
+    "weirdness": {
+      "min_inclusive": -0.2197,
+      "max_inclusive": -0.0855
+    }
+  }
+}

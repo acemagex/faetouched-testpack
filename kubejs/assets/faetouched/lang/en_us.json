@@ -1,0 +1,11 @@
+{
+  "block.faetouched.gas_vent": "Gas Vent",
+  "generator.faetouched.structure_dev": "Structure Dev",
+  "text.faetouched.npc.example_greeter.name": "Example Greeter",
+  "text.faetouched.npc.example_greeter.dialog.default": "Hello, @initiator. I'm here to show that an NPC written as a text file works.",
+  "text.faetouched.npc.example_greeter.button.ask": "Who are you?",
+  "text.faetouched.npc.example_greeter.button.token": "Give me a token",
+  "text.faetouched.npc.example_greeter.button.bye": "Goodbye",
+  "text.faetouched.npc.example_greeter.dialog.about": "I'm the example for the pack's NPC presets. Nothing here is story.",
+  "text.faetouched.npc.example_greeter.dialog.thanks": "There: you're tagged faetouched_example_greeted. This button works once per player."
+}

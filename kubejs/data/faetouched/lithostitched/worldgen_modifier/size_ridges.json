@@ -1,0 +1,104 @@
+{
+  "type": "lithostitched:wrap_noise_router",
+  "dimension": "minecraft:overworld",
+  "target": "ridges",
+  "priority": 1000,
+  "wrapper_function": {
+    "type": "minecraft:range_choice",
+    "input": {
+      "type": "lithostitched:wrapped_marker"
+    },
+    "min_inclusive": -0.05,
+    "max_exclusive": 0.05,
+    "when_in_range": {
+      "type": "lithostitched:wrapped_marker"
+    },
+    "when_out_of_range": {
+      "type": "minecraft:range_choice",
+      "input": {
+        "type": "minecraft:mul",
+        "argument1": {
+          "type": "minecraft:add",
+          "argument1": {
+            "type": "lithostitched:wrapped_marker"
+          },
+          "argument2": {
+            "type": "minecraft:mul",
+            "argument1": {
+              "type": "minecraft:add",
+              "argument1": "faetouched:size/ridges_broad",
+              "argument2": {
+                "type": "minecraft:mul",
+                "argument1": {
+                  "type": "lithostitched:wrapped_marker"
+                },
+                "argument2": -1
+              }
+            },
+            "argument2": "faetouched:size/t_big"
+          }
+        },
+        "argument2": "faetouched:size/comp"
+      },
+      "min_inclusive": -0.05,
+      "max_exclusive": 0,
+      "when_in_range": -0.0501,
+      "when_out_of_range": {
+        "type": "minecraft:range_choice",
+        "input": {
+          "type": "minecraft:mul",
+          "argument1": {
+            "type": "minecraft:add",
+            "argument1": {
+              "type": "lithostitched:wrapped_marker"
+            },
+            "argument2": {
+              "type": "minecraft:mul",
+              "argument1": {
+                "type": "minecraft:add",
+                "argument1": "faetouched:size/ridges_broad",
+                "argument2": {
+                  "type": "minecraft:mul",
+                  "argument1": {
+                    "type": "lithostitched:wrapped_marker"
+                  },
+                  "argument2": -1
+                }
+              },
+              "argument2": "faetouched:size/t_big"
+            }
+          },
+          "argument2": "faetouched:size/comp"
+        },
+        "min_inclusive": 0,
+        "max_exclusive": 0.05,
+        "when_in_range": 0.0501,
+        "when_out_of_range": {
+          "type": "minecraft:mul",
+          "argument1": {
+            "type": "minecraft:add",
+            "argument1": {
+              "type": "lithostitched:wrapped_marker"
+            },
+            "argument2": {
+              "type": "minecraft:mul",
+              "argument1": {
+                "type": "minecraft:add",
+                "argument1": "faetouched:size/ridges_broad",
+                "argument2": {
+                  "type": "minecraft:mul",
+                  "argument1": {
+                    "type": "lithostitched:wrapped_marker"
+                  },
+                  "argument2": -1
+                }
+              },
+              "argument2": "faetouched:size/t_big"
+            }
+          },
+          "argument2": "faetouched:size/comp"
+        }
+      }
+    }
+  }
+}

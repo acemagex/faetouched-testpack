@@ -1,0 +1,20 @@
+{
+  "type": "lithostitched:force_placement",
+  "dimension": "minecraft:overworld",
+  "biome": "terralith:blooming_valley",
+  "parameters": {
+    "faetouched:pool/dist": {
+      "max_inclusive": 85
+    },
+    "faetouched:pool/pick": {
+      "min_inclusive": 0.634615,
+      "max_inclusive": 0.64423
+    },
+    "continentalness": {
+      "min_inclusive": 0.03
+    },
+    "depth": {
+      "max_inclusive": 0.15
+    }
+  }
+}

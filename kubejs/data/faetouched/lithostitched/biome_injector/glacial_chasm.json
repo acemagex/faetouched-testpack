@@ -1,0 +1,10 @@
+{
+  "type": "lithostitched:replace_fully",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "minecraft:ice_spikes",
+    "terralith:frozen_cliffs"
+  ],
+  "replacement": "terralith:glacial_chasm"
+}

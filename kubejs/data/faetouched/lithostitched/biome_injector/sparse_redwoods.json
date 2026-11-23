@@ -1,0 +1,10 @@
+{
+  "type": "lithostitched:replace_fully",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "minecraft:old_growth_pine_taiga",
+    "terralith:yosemite_lowlands"
+  ],
+  "replacement": "regions_unexplored:sparse_redwoods"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "biomeswevegone:allium_shrubland"
+  ],
+  "replacement": "regions_unexplored:poppy_fields",
+  "parameters": {
+    "weirdness": {
+      "min_inclusive": -0.1631,
+      "max_inclusive": -0.0652
+    }
+  }
+}

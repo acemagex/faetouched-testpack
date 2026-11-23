@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "faetouched:item/safety_lamp_blue"
+  }
+}

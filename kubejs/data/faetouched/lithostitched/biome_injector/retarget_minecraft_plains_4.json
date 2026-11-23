@@ -1,0 +1,15 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "minecraft:plains"
+  ],
+  "replacement": "regions_unexplored:flower_fields",
+  "parameters": {
+    "weirdness": {
+      "min_inclusive": -0.1633,
+      "max_inclusive": -0.0605
+    }
+  }
+}

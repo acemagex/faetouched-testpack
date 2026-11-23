@@ -1,0 +1,15 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "minecraft:plains"
+  ],
+  "replacement": "minecraft:sunflower_plains",
+  "parameters": {
+    "weirdness": {
+      "min_inclusive": -0.2821,
+      "max_inclusive": -0.1634
+    }
+  }
+}

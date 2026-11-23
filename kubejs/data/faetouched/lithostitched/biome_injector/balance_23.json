@@ -1,0 +1,15 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "biomesoplenty:rainforest"
+  ],
+  "replacement": "regions_unexplored:fungal_fen",
+  "parameters": {
+    "weirdness": {
+      "min_inclusive": -0.1296,
+      "max_inclusive": 0.0149
+    }
+  }
+}

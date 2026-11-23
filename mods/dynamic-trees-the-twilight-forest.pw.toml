@@ -1,0 +1,8 @@
+name = "Dynamic Trees for The Twilight Forest"
+filename = "dttwilightforest-1.21.1-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/dannykim2011/DynamicTrees-TheTwilightForest/releases/download/1.21.1-1.0.0/dttwilightforest-1.21.1-1.0.0.jar"
+hash-format = "sha512"
+hash = "7c2cdc7cf4189824cbe028f45f77154d1784e6fdfa541226b3e37953976b742163057358e7022d13bc4a7bdbb890995a6db971aa46a6acacffd99f0fcb2efd31"

@@ -1,0 +1,20 @@
+{
+  "type": "lithostitched:force_placement",
+  "dimension": "minecraft:overworld",
+  "biome": "biomeswevegone:jacaranda_jungle",
+  "parameters": {
+    "faetouched:pool/dist": {
+      "max_inclusive": 85
+    },
+    "faetouched:pool/pick": {
+      "min_inclusive": 0.298077,
+      "max_inclusive": 0.307691
+    },
+    "continentalness": {
+      "min_inclusive": 0.03
+    },
+    "depth": {
+      "max_inclusive": 0.15
+    }
+  }
+}

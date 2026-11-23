@@ -1,0 +1,7 @@
+{
+  "parent": "faetouched:block/gas_layer_down_4",
+  "textures": {
+    "gas": "minecraft:block/water_still",
+    "particle": "minecraft:block/water_still"
+  }
+}

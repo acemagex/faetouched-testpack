@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:spline",
+  "spline": {
+    "coordinate": "faetouched:size/t_big",
+    "points": [
+      {
+        "location": 0,
+        "value": 1,
+        "derivative": 0
+      },
+      {
+        "location": 0.25,
+        "value": 1.2649,
+        "derivative": 0
+      },
+      {
+        "location": 0.5,
+        "value": 1.4142,
+        "derivative": 0
+      },
+      {
+        "location": 0.75,
+        "value": 1.2649,
+        "derivative": 0
+      },
+      {
+        "location": 1,
+        "value": 1,
+        "derivative": 0
+      }
+    ]
+  }
+}

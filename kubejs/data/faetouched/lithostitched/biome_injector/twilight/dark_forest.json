@@ -1,0 +1,15 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "minecraft:dark_forest"
+  ],
+  "replacement": "twilightforest:dark_forest",
+  "parameters": {
+    "weirdness": {
+      "min_inclusive": -0.25,
+      "max_inclusive": -0.0001
+    }
+  }
+}

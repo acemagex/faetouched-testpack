@@ -1,0 +1,13 @@
+name = "Photon Editor"
+filename = "photon-neoforge-1.21.1-2.2.11.a-all.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gzevkJbM/versions/AuO2sGZM/photon-neoforge-1.21.1-2.2.11.a-all.jar"
+hash-format = "sha512"
+hash = "cab2d0fef605e2ae82572e21148e7fe04420d41d4b834c20cc57f1f582de02734936f0cb9d17b07c339e609bc6a36ded8a17c1a2614f97c4a0ccdcbc97d8f4e2"
+
+[update]
+[update.modrinth]
+mod-id = "gzevkJbM"
+version = "AuO2sGZM"

@@ -1,0 +1,15 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "minecraft:snowy_plains"
+  ],
+  "replacement": "biomesoplenty:snowblossom_grove",
+  "parameters": {
+    "weirdness": {
+      "min_inclusive": -0.2628,
+      "max_inclusive": -0.0453
+    }
+  }
+}

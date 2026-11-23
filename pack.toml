@@ -1,0 +1,13 @@
+name = "Faetouched (test)"
+author = "acemagex"
+version = "2026-11-23-53a7e0f"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "80c6f703d486c5280c905c91c5df210f18f92132c777a089eb34ba3f67df9e5b"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.265"

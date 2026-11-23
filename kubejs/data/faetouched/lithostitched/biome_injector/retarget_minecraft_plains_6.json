@@ -1,0 +1,15 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "minecraft:plains"
+  ],
+  "replacement": "regions_unexplored:chalk_cliffs",
+  "parameters": {
+    "weirdness": {
+      "min_inclusive": 0.0377,
+      "max_inclusive": 0.1386
+    }
+  }
+}

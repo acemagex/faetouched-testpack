@@ -1,0 +1,10 @@
+{
+  "type": "lithostitched:replace_fully",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "terralith:granite_cliffs",
+    "terralith:stony_spires"
+  ],
+  "replacement": "terralith:haze_mountain"
+}

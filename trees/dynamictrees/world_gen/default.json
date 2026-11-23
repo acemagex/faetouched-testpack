@@ -1,0 +1,1010 @@
+[
+  {
+    "select": {
+      "name": "biomesoplenty:field"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 7,
+          "dtbop:alps_spruce": 1,
+          "dtbwg:giga_yellow_spruce": 1,
+          "dtbwg:mega_yellow_spruce": 1,
+          "dtru:dead_pine": 1,
+          "dtru:mega_pine": 1,
+          "dtterralith:larch": 1,
+          "dtterralith:lush_mangrove": 1
+        }
+      },
+      "chance": 0.5
+    }
+  },
+  {
+    "select": {
+      "name": "biomesoplenty:floodplain"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 6,
+          "dtterralith:scruffy_swamp_mangrove": 17,
+          "dtterralith:sparse_swamp_mangrove": 17
+        }
+      },
+      "chance": 0.15
+    }
+  },
+  {
+    "select": {
+      "name": "biomesoplenty:hot_springs"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 9,
+          "dtbop:alps_spruce": 1,
+          "dtbop:fir": 1,
+          "dtbop:mega_fir": 1,
+          "dtbwg:northern_spruce": 1,
+          "dtru:golden_larch": 1,
+          "dtru:larch": 1,
+          "dtterralith:black_poplar": 1,
+          "dtterralith:dwarf_spruce": 1,
+          "dtterralith:spruce_twiglet": 1
+        }
+      },
+      "chance": 0.25
+    }
+  },
+  {
+    "select": {
+      "name": "biomesoplenty:mediterranean_forest"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 8,
+          "dtbop:flowering_apple_oak": 1,
+          "dtbwg:mega_pine": 1,
+          "dtbwg:pine": 1,
+          "dtru:big_apple_oak": 1,
+          "dtterralith:maple": 1,
+          "dtterralith:red_pine": 1,
+          "dtterralith:red_shrub": 1,
+          "dtterralith:taiga_birch": 1
+        }
+      },
+      "chance": 0.25
+    }
+  },
+  {
+    "select": {
+      "name": "biomesoplenty:pumpkin_patch"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 7,
+          "dtbop:aspen": 1,
+          "dtbwg:holly": 1,
+          "dtbwg:mega_holly": 1,
+          "dtbwg:orange_spruce": 1,
+          "dtbwg:yellow_poplar": 1,
+          "dtterralith:cedar": 1,
+          "dtterralith:northern_spruce": 1
+        }
+      },
+      "chance": 0.35
+    }
+  },
+  {
+    "select": {
+      "name": "biomesoplenty:rainforest"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 3,
+          "dtru:kapok": 1,
+          "dtterralith:windswept_jungle": 1,
+          "dynamictrees:mega_jungle": 1
+        }
+      },
+      "chance": 0.5
+    }
+  },
+  {
+    "select": {
+      "name": "biomesoplenty:shrubland"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 7,
+          "dtbop:acacia_twiglet": 1,
+          "dtbwg:giga_orange_spruce": 1,
+          "dtbwg:giga_red_spruce": 1,
+          "dtbwg:tall_orange_spruce": 1,
+          "dtterralith:creeping_juniper": 1,
+          "dtterralith:silverleaf_poplar": 1,
+          "dtterralith:sparse_spruce": 1
+        }
+      },
+      "chance": 0.25
+    }
+  },
+  {
+    "select": {
+      "name": "biomesoplenty:snowblossom_grove"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 8,
+          "dtbop:rainbow_birch": 1,
+          "dtbwg:giga_blue_spruce": 1,
+          "dtbwg:mega_blue_spruce": 1,
+          "dtru:maple": 1,
+          "dtru:orange_maple": 1,
+          "dtru:red_maple": 1,
+          "dtterralith:giga_spruce": 1,
+          "dtterralith:sparse_spruce": 1
+        }
+      },
+      "chance": 0.5
+    }
+  },
+  {
+    "select": {
+      "name": "biomesoplenty:snowy_maple_woods"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 9,
+          "dtbop:fir": 1,
+          "dtbop:mega_fir": 1,
+          "dtbop:rainbow_birch": 1,
+          "dtbwg:northern_spruce": 1,
+          "dtru:golden_larch": 1,
+          "dtru:larch": 1,
+          "dtru:tall_spruce": 1,
+          "dtterralith:giga_spruce": 1,
+          "dtterralith:spruce_twiglet": 1
+        }
+      },
+      "chance": 0.45
+    }
+  },
+  {
+    "select": {
+      "name": "biomesoplenty:volcanic_plains"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 6,
+          "dtbop:acacia_undergrowth": 1,
+          "dtbop:sparse_acacia": 1,
+          "dtbwg:firecracker": 1,
+          "dtterralith:acacia_twiglet": 1,
+          "dtterralith:oak_twiglet": 1,
+          "dtterralith:sparse_acacia": 1
+        }
+      },
+      "chance": 0.3
+    }
+  },
+  {
+    "select": {
+      "name": "biomeswevegone:allium_shrubland"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 2,
+          "dtbwg:bushy_oak": 1,
+          "dtterralith:dwarf_pine": 1
+        }
+      },
+      "chance": 0.25
+    }
+  },
+  {
+    "select": {
+      "name": "biomeswevegone:amaranth_grassland"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 11,
+          "dtbop:dead": 1,
+          "dtbop:dying": 1,
+          "dtbop:flowering_apple_oak": 1,
+          "dtbop:infested": 1,
+          "dtbop:silk": 1,
+          "dtbop:tall_dead": 1,
+          "dtbop:tall_dying": 1,
+          "dtbwg:yellow_poplar": 1,
+          "dtterralith:creeping_juniper": 1,
+          "dtterralith:scruffy_pine": 1,
+          "dtterralith:silverleaf_poplar": 1
+        }
+      },
+      "chance": 0.1
+    }
+  },
+  {
+    "select": {
+      "name": "biomeswevegone:araucaria_savanna"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 6,
+          "dtbop:spruce_twiglet": 1,
+          "dtbwg:baobab": 1,
+          "dtru:baobab": 1,
+          "dtru:socotra": 1,
+          "dtterralith:oak_twiglet": 1,
+          "dtterralith:sparse_acacia": 1
+        }
+      },
+      "chance": 0.25
+    }
+  },
+  {
+    "select": {
+      "name": "biomeswevegone:atacama_outback"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 3,
+          "dtbwg:yucca": 1,
+          "dtru:acacia_twiglet": 1,
+          "dynamictreesplus:mega_cactus": 1
+        }
+      },
+      "chance": 0.25
+    }
+  },
+  {
+    "select": {
+      "name": "biomeswevegone:crag_gardens"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 7,
+          "dtbop:spruce_undergrowth": 1,
+          "dtbwg:mega_orange_spruce": 1,
+          "dtbwg:redwood": 1,
+          "dtbwg:small_redwood": 1,
+          "dtru:flowering_undergrowth": 1,
+          "dtru:short_palm": 1,
+          "dtterralith:windswept_jungle": 1
+        }
+      },
+      "chance": 0.5
+    }
+  },
+  {
+    "select": {
+      "name": "biomeswevegone:ebony_woods"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 7,
+          "dtbop:cherry_twiglet": 1,
+          "dtbop:jacaranda": 1,
+          "dtbop:redwood": 1,
+          "dtbop:small_redwood": 1,
+          "dtbwg:ancient_birch": 1,
+          "dtbwg:tall_orchard": 1,
+          "dtru:bamboo": 1
+        }
+      },
+      "chance": 0.5
+    }
+  },
+  {
+    "select": {
+      "name": "biomeswevegone:forgotten_forest"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 7,
+          "dtbop:cherry_twiglet": 1,
+          "dtbop:jacaranda": 1,
+          "dtbop:redwood": 1,
+          "dtbop:small_redwood": 1,
+          "dtbwg:ancient_birch": 1,
+          "dtbwg:tall_orchard": 1,
+          "dtru:bamboo": 1
+        }
+      },
+      "chance": 0.5
+    }
+  },
+  {
+    "select": {
+      "name": "biomeswevegone:frosted_taiga"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 7,
+          "dtbwg:giga_blue_spruce": 1,
+          "dtbwg:maple": 1,
+          "dtbwg:mega_blue_spruce": 1,
+          "dtbwg:red_maple": 1,
+          "dtbwg:silver_maple": 1,
+          "dtterralith:big_spruce": 1,
+          "dtterralith:orange_pine": 1
+        }
+      },
+      "chance": 0.4
+    }
+  },
+  {
+    "select": {
+      "name": "biomeswevegone:ironwood_gour"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 6,
+          "dtbop:spruce_twiglet": 1,
+          "dtbwg:baobab": 1,
+          "dtbwg:firecracker_twiglet": 1,
+          "dtru:socotra": 1,
+          "dtterralith:acacia_bush": 1,
+          "dtterralith:small_acacia": 1
+        }
+      },
+      "chance": 0.25
+    }
+  },
+  {
+    "select": {
+      "name": "biomeswevegone:jacaranda_jungle"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 4,
+          "dtbwg:bushy_oak": 1,
+          "dtbwg:oak_twiglet": 1,
+          "dtru:short_jungle": 1,
+          "dtterralith:scruffy_pine": 1
+        }
+      },
+      "chance": 0.5
+    }
+  },
+  {
+    "select": {
+      "name": "biomeswevegone:pale_bog"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 33,
+          "dtbop:cypress_willow": 17,
+          "dtbop:mangrove_twiglet": 17,
+          "dtbop:willow": 17,
+          "dtbwg:cypress": 17,
+          "dtbwg:mega_cypress": 17,
+          "dtru:cypress": 17,
+          "dtru:mega_cypress": 17,
+          "dtterralith:dead_oak": 17,
+          "dtterralith:large_swamp_oak": 17,
+          "dtterralith:sparse_swamp_oak": 17,
+          "dynamictrees:mangrove": 17
+        }
+      },
+      "chance": 0.4
+    }
+  },
+  {
+    "select": {
+      "name": "biomeswevegone:prairie"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 7,
+          "dtbop:poplar": 1,
+          "dtbwg:giga_orange_spruce": 1,
+          "dtbwg:giga_red_spruce": 1,
+          "dtbwg:orange_spruce": 1,
+          "dtbwg:tall_orange_spruce": 1,
+          "dtterralith:dwarf_pine": 1,
+          "dtterralith:red_pine": 1
+        }
+      },
+      "chance": 0.1
+    }
+  },
+  {
+    "select": {
+      "name": "biomeswevegone:skyris_vale"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 11,
+          "dtbop:maple_twiglet": 1,
+          "dtbop:snowblossom_twiglet": 1,
+          "dtbop:yellow_maple": 1,
+          "dtbwg:ancient_yellow_birch": 1,
+          "dtbwg:brown_zelkova": 1,
+          "dtbwg:cika": 1,
+          "dtbwg:giga_spruce": 1,
+          "dtbwg:holly": 1,
+          "dtbwg:mega_holly": 1,
+          "dtbwg:small_cika": 1,
+          "dtbwg:zelkova": 1
+        }
+      },
+      "chance": 0.4
+    }
+  },
+  {
+    "select": {
+      "name": "biomeswevegone:weeping_witch_forest"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 11,
+          "dtbop:maple_twiglet": 1,
+          "dtbop:yellow_maple": 1,
+          "dtbwg:ancient_yellow_birch": 1,
+          "dtbwg:aspen": 1,
+          "dtbwg:brown_zelkova": 1,
+          "dtbwg:fir": 1,
+          "dtbwg:giga_spruce": 1,
+          "dtbwg:mega_fir": 1,
+          "dtbwg:tall_fir": 1,
+          "dtbwg:zelkova": 1,
+          "dtterralith:northern_spruce": 1
+        }
+      },
+      "chance": 0.4
+    }
+  },
+  {
+    "select": {
+      "name": "biomeswevegone:white_mangrove_marshes"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 33,
+          "dtbop:mangrove_twiglet": 17,
+          "dtbop:mini_brown_mushroom": 17,
+          "dtbwg:cypress": 17,
+          "dtbwg:mega_cypress": 17,
+          "dtbwg:mega_willow": 17,
+          "dtbwg:sparse_willow": 17,
+          "dtbwg:willow": 17,
+          "dtterralith:dead_mangrove": 17,
+          "dtterralith:large_swamp_oak": 17,
+          "dtterralith:sparse_swamp_mangrove": 17,
+          "dynamictrees:mangrove": 17
+        }
+      },
+      "chance": 0.5
+    }
+  },
+  {
+    "select": {
+      "name": "minecraft:flower_forest"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 7,
+          "dtbop:snowblossom_twiglet": 1,
+          "dtbwg:canopy_oak": 1,
+          "dtbwg:mega_orchard": 1,
+          "dtbwg:orchard": 1,
+          "dtterralith:canopy_spruce": 1,
+          "dtterralith:sakura_undergrowth": 1,
+          "dtterralith:windswept_spruce": 1
+        }
+      },
+      "chance": 0.5
+    }
+  },
+  {
+    "select": {
+      "name": "minecraft:mushroom_fields"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 4,
+          "dtbwg:mega_red_spruce": 1,
+          "dtbwg:redwood": 1,
+          "dtbwg:small_redwood": 1,
+          "dtru:short_palm": 1
+        }
+      },
+      "chance": 0.375
+    }
+  },
+  {
+    "select": {
+      "name": "regions_unexplored:bayou"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 30,
+          "dtbop:cypress_willow": 17,
+          "dtbop:mini_brown_mushroom": 17,
+          "dtbop:willow": 17,
+          "dtbwg:mega_willow": 17,
+          "dtbwg:sparse_willow": 17,
+          "dtbwg:willow": 17,
+          "dtru:dead": 17,
+          "dtterralith:dead_oak": 17,
+          "dtterralith:scruffy_swamp_oak": 17,
+          "dtterralith:sparse_swamp_oak": 17
+        }
+      },
+      "chance": 0.5
+    }
+  },
+  {
+    "select": {
+      "name": "regions_unexplored:eucalyptus_forest"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 6,
+          "dtbwg:firecracker_twiglet": 1,
+          "dtru:blackwood": 1,
+          "dtru:flowering_undergrowth": 1,
+          "dtru:kapok": 1,
+          "dtru:short_jungle": 1,
+          "dynamictrees:mega_jungle": 1
+        }
+      },
+      "chance": 0.5
+    }
+  },
+  {
+    "select": {
+      "name": "regions_unexplored:frozen_pine_taiga"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 5,
+          "dtru:spruce_twiglet": 1,
+          "dtru:tall_spruce": 1,
+          "dtterralith:black_poplar": 1,
+          "dtterralith:maple": 1,
+          "dynamictrees:azalea": 1
+        }
+      },
+      "chance": 0.35
+    }
+  },
+  {
+    "select": {
+      "name": "regions_unexplored:grassland"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 25,
+          "dtbop:acacia_undergrowth": 5,
+          "dtbop:sparse_acacia": 5,
+          "dtbwg:firecracker": 5,
+          "dtru:spruce_twiglet": 5,
+          "dtterralith:mega_orange_pine": 1
+        }
+      },
+      "chance": 0.1
+    }
+  },
+  {
+    "select": {
+      "name": "regions_unexplored:joshua_desert"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 4,
+          "dtbwg:palo_verde": 1,
+          "dtbwg:yucca": 1,
+          "dtru:acacia_twiglet": 1,
+          "dynamictreesplus:mega_cactus": 1
+        }
+      },
+      "chance": 0.1
+    }
+  },
+  {
+    "select": {
+      "name": "regions_unexplored:silver_birch_forest"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 8,
+          "dtbwg:aspen": 1,
+          "dtbwg:mega_red_spruce": 1,
+          "dtru:enchanted_birch": 1,
+          "dtru:maple": 1,
+          "dtru:orange_maple": 1,
+          "dtru:red_maple": 1,
+          "dtterralith:mega_red_pine": 1,
+          "dtterralith:taiga_birch": 1
+        }
+      },
+      "chance": 0.5
+    }
+  },
+  {
+    "select": {
+      "name": "regions_unexplored:sparse_redwoods"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 3,
+          "dtbwg:oak_twiglet": 1,
+          "dtru:blackwood": 1,
+          "dynamictrees:dark_oak": 1
+        }
+      },
+      "chance": 0.35
+    }
+  },
+  {
+    "select": {
+      "name": "regions_unexplored:towering_cliffs"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 5,
+          "dtbop:spruce_undergrowth": 1,
+          "dtbwg:canopy_dark_oak": 1,
+          "dtbwg:poplar": 1,
+          "dtterralith:mega_big_spruce": 1,
+          "dynamictrees:dark_oak": 1
+        }
+      },
+      "chance": 0.4
+    }
+  },
+  {
+    "select": {
+      "name": "regions_unexplored:willow_forest"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 8,
+          "dtbop:aspen": 1,
+          "dtbwg:cika": 1,
+          "dtbwg:mega_pine": 1,
+          "dtbwg:pine": 1,
+          "dtbwg:small_cika": 1,
+          "dtru:big_apple_oak": 1,
+          "dtterralith:mega_big_spruce": 1,
+          "dtterralith:red_shrub": 1
+        }
+      },
+      "chance": 0.4
+    }
+  },
+  {
+    "select": {
+      "name": "terralith:haze_mountain"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 8,
+          "dtbwg:fir": 1,
+          "dtbwg:mega_fir": 1,
+          "dtbwg:mega_orange_spruce": 1,
+          "dtbwg:tall_fir": 1,
+          "dtru:dead_pine": 1,
+          "dtru:mega_pine": 1,
+          "dtterralith:birch_pine": 1,
+          "dtterralith:mega_larch": 1
+        }
+      },
+      "chance": 0.5
+    }
+  },
+  {
+    "select": {
+      "name": "terralith:mirage_isles"
+    },
+    "apply": {
+      "species": {
+        "method": "replace",
+        "random": {
+          "dynamictreesplus:mega_red_mushroom": 7,
+          "dynamictreesplus:mega_brown_mushroom": 7,
+          "dtterralith:ancient": 48,
+          "dtterralith:mega_ancient": 12
+        }
+      }
+    }
+  },
+  {
+    "select": {
+      "name": "terralith:moonlight_valley"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 6,
+          "dtbwg:canopy_oak": 1,
+          "dtbwg:mega_orchard": 1,
+          "dtterralith:birch_pine": 1,
+          "dtterralith:canopy_spruce": 1,
+          "dtterralith:sakura_undergrowth": 1,
+          "dtterralith:windswept_spruce": 1
+        }
+      },
+      "chance": 0.5
+    }
+  },
+  {
+    "select": {
+      "name": "terralith:savanna_slopes"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 6,
+          "dtbop:acacia_twiglet": 1,
+          "dtbwg:palo_verde": 1,
+          "dtru:baobab": 1,
+          "dtterralith:acacia_bush": 1,
+          "dtterralith:acacia_twiglet": 1,
+          "dtterralith:small_acacia": 1
+        }
+      },
+      "chance": 0.5
+    }
+  },
+  {
+    "select": {
+      "name": "terralith:snowy_badlands"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 1,
+          "dynamictrees:azalea": 1
+        }
+      },
+      "chance": 0.15
+    }
+  },
+  {
+    "select": {
+      "name": "twilightforest:dark_forest"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 3,
+          "dtbwg:dark_oak_twiglet": 1,
+          "dtbwg:poplar": 1,
+          "dtterralith:mega_red_pine": 1
+        }
+      },
+      "chance": 0.5
+    }
+  },
+  {
+    "select": {
+      "name": "twilightforest:dense_forest"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 3,
+          "dtbwg:canopy_dark_oak": 1,
+          "dtbwg:orchard": 1,
+          "dtterralith:mega_larch": 1
+        }
+      },
+      "chance": 0.5
+    }
+  },
+  {
+    "select": {
+      "name": "twilightforest:dense_mushroom_forest"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 1,
+          "dttwilightforest:mushgloom": 1
+        }
+      },
+      "chance": 0.5
+    }
+  },
+  {
+    "select": {
+      "name": "twilightforest:enchanted_forest"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 5,
+          "dtbwg:giga_yellow_spruce": 1,
+          "dtbwg:yellow_spruce": 1,
+          "dtru:twisting_birch": 1,
+          "dtterralith:dwarf_spruce": 1,
+          "dtterralith:mega_orange_pine": 1
+        }
+      },
+      "chance": 0.5
+    }
+  },
+  {
+    "select": {
+      "name": "twilightforest:firefly_forest"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 3,
+          "dtbwg:dark_oak_twiglet": 1,
+          "dtbwg:yellow_spruce": 1,
+          "dtterralith:cedar": 1
+        }
+      },
+      "chance": 0.5
+    }
+  },
+  {
+    "select": {
+      "name": "twilightforest:forest"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 5,
+          "dtbop:poplar": 1,
+          "dtbwg:mega_yellow_spruce": 1,
+          "dtru:enchanted_birch": 1,
+          "dtru:twisting_birch": 1,
+          "dtterralith:lush_mangrove": 1
+        }
+      },
+      "chance": 0.5
+    }
+  },
+  {
+    "select": {
+      "name": "twilightforest:mushroom_forest"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 3,
+          "dtru:small_blue_bioshroom": 1,
+          "dtru:small_pink_bioshroom": 1,
+          "dttwilightforest:mushgloom": 1
+        }
+      },
+      "chance": 0.5
+    }
+  },
+  {
+    "select": {
+      "name": "twilightforest:spooky_forest"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 14,
+          "dtbop:dead": 1,
+          "dtbop:dying": 1,
+          "dtbop:infested": 1,
+          "dtbop:infested_oak_undergrowth": 1,
+          "dtbop:silk": 1,
+          "dtbop:silk_undergrowth": 1,
+          "dtbop:tall_dead": 1,
+          "dtbop:tall_dying": 1,
+          "dtbwg:maple": 1,
+          "dtbwg:red_maple": 1,
+          "dtbwg:silver_maple": 1,
+          "dtterralith:big_spruce": 1,
+          "dtterralith:larch": 1,
+          "dtterralith:orange_pine": 1
+        }
+      },
+      "chance": 0.4
+    }
+  },
+  {
+    "select": {
+      "name": "twilightforest:swamp"
+    },
+    "apply": {
+      "species": {
+        "method": "splice_before",
+        "random": {
+          "...": 18,
+          "dtru:cypress": 17,
+          "dtru:dead": 17,
+          "dtru:mega_cypress": 17,
+          "dtterralith:dead_mangrove": 17,
+          "dtterralith:scruffy_swamp_mangrove": 17,
+          "dtterralith:scruffy_swamp_oak": 17
+        }
+      },
+      "chance": 0.4
+    }
+  }
+]

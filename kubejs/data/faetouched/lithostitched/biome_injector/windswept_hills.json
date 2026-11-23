@@ -1,0 +1,12 @@
+{
+  "type": "lithostitched:replace_fully",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "minecraft:windswept_forest",
+    "minecraft:windswept_gravelly_hills",
+    "terralith:rocky_shrubland",
+    "terralith:windswept_spires"
+  ],
+  "replacement": "minecraft:windswept_hills"
+}

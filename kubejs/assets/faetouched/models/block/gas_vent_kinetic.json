@@ -1,0 +1,46 @@
+{
+	"parent": "block/block",
+	"render_type": "minecraft:cutout",
+	"textures": {
+		"vent": "faetouched:block/gas_vent",
+		"frame": "create:block/funnel/andesite_funnel_frame",
+		"plate": "create:block/gearbox",
+		"particle": "faetouched:block/gas_vent"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#frame"},
+				"south": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#frame"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#vent"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#vent"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#vent"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#vent"}
+			}
+		},
+		{
+			"from": [1.95, 1.95, 16],
+			"to": [14.05, 14.05, 15],
+			"faces": {
+				"south": {"uv": [2, 2, 14, 14], "rotation": 180, "texture": "#plate"},
+				"up": {"uv": [2, 0, 14, 1], "texture": "#plate"},
+				"down": {"uv": [2, 15, 14, 16], "texture": "#plate"},
+				"east": {"uv": [15, 2, 16, 14], "texture": "#plate"},
+				"west": {"uv": [0, 2, 1, 14], "texture": "#plate"}
+			}
+		},
+		{
+			"from": [1.95, 1.95, 1],
+			"to": [14.05, 14.05, 0],
+			"faces": {
+				"north": {"uv": [2, 2, 14, 14], "texture": "#plate"},
+				"up": {"uv": [2, 0, 14, 1], "texture": "#plate"},
+				"down": {"uv": [2, 15, 14, 16], "texture": "#plate"},
+				"east": {"uv": [15, 2, 16, 14], "texture": "#plate"},
+				"west": {"uv": [0, 2, 1, 14], "texture": "#plate"}
+			}
+		}
+	]
+}

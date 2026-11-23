@@ -1,0 +1,15 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "minecraft:forest"
+  ],
+  "replacement": "terralith:sakura_valley",
+  "parameters": {
+    "weirdness": {
+      "min_inclusive": -0.3816,
+      "max_inclusive": -0.2819
+    }
+  }
+}

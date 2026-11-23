@@ -1,0 +1,13 @@
+name = "AgriCraft Create Compat"
+filename = "agcraftcompat-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/pJAm1G0w/versions/RfEfamw4/agcraftcompat-1.0.0.jar"
+hash-format = "sha512"
+hash = "db4603f5254168b66b2cbfe9145a5d5d17e9bbc9a6b8b64861692716b8e44ae7e4c8d96ff8e7cacf2f19f7ab92784a2060b86d37c2958764d0f9c4e42caa12c9"
+
+[update]
+[update.modrinth]
+mod-id = "pJAm1G0w"
+version = "RfEfamw4"

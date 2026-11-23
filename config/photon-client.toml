@@ -1,0 +1,74 @@
+enable_bloom = true
+# Default: 5
+# Range: 2 ~ 10
+bloom_mip_level = 5
+# Default: 1.001
+# Range: 0.0 ~ 10.0
+bloom_threshold = 1.001
+# Default: 0.7
+# Range: 0.0 ~ 1.0
+bloom_intensity = 0.7
+enable_bloom_with_iris_shader = true
+#Allowed Values: AUTO, PREMULTIPLIED_ACCUM, AFTER_PACK, SCENE_REPLACE, DISABLED
+iris_composite_mode = "AUTO"
+iris_use_translucent_particle_program = false
+#Allowed Values: VANILLA, LATE
+fx_composite_mode = "LATE"
+enable_custom_effects = true
+enable_custom_effects_with_shader_pack = true
+# Default: 256
+# Range: 16 ~ 4096
+postfx_pool_budget_mb = 256
+
+[dynamic_lights]
+	enabled = true
+	#Allowed Values: OFF, SCREEN, VOXEL
+	shadow_mode = "VOXEL"
+	soft_shadows = true
+	# Default: 8
+	# Range: 0 ~ 32
+	shadowed_lights = 8
+	# Default: 0.5
+	# Range: 0.25 ~ 1.0
+	resolution = 0.5
+	# Default: 6
+	# Range: 0 ~ 32
+	contact_shadow_steps = 6
+	# Default: 0.8
+	# Range: 0.1 ~ 4.0
+	contact_shadow_length = 0.8
+	# Default: 24
+	# Range: 1 ~ 128
+	screen_shadow_steps = 24
+	# Default: 1.0
+	# Range: 0.05 ~ 16.0
+	screen_shadow_thickness = 1.0
+	# Default: 32.0
+	# Range: 1.0 ~ 128.0
+	screen_shadow_distance = 32.0
+	# Default: 2.0
+	# Range: 0.1 ~ 20.0
+	voxel_budget_ms = 2.0
+	# Default: 0.85
+	# Range: 0.1 ~ 1.0
+	albedo_max = 0.85
+	# Default: 0.06
+	# Range: 0.001 ~ 1.0
+	shader_pack_ambient = 0.06
+	volumetric = true
+	# Default: 1.0
+	# Range: 0.0 ~ 8.0
+	volumetric_density = 1.0
+	# Default: 0.3
+	# Range: 0.0 ~ 0.9
+	volumetric_forward_scattering = 0.3
+	# Default: 4
+	# Range: 1 ~ 16
+	volumetric_samples = 4
+	volumetric_with_shader_packs = true
+
+[collision]
+	parallel = true
+	# Default: 4096
+	# Range: 64 ~ 16384
+	section_cache_limit = 4096

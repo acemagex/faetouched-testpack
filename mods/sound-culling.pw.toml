@@ -1,0 +1,13 @@
+name = "Dynamic Sound Culling"
+filename = "soundculling-2.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/sFgqI5oP/versions/slFd6BMg/soundculling-2.1.0.jar"
+hash-format = "sha512"
+hash = "981f21dc574e123085dc6bfbed3a0050899789cf113b9acc1160a3fd1ea24fdc35db3e1f77af2ba1925548be0d7afbd858c0b1b7e6d9e0fba21fbf8b78fdd825"
+
+[update]
+[update.modrinth]
+mod-id = "sFgqI5oP"
+version = "slFd6BMg"

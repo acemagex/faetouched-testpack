@@ -1,0 +1,9 @@
+{
+  "type": "lithostitched:replace_fully",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "minecraft:old_growth_birch_forest"
+  ],
+  "replacement": "regions_unexplored:magnolia_woodland"
+}

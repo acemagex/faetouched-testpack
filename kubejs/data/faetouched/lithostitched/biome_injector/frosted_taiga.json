@@ -1,0 +1,11 @@
+{
+  "type": "lithostitched:replace_fully",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "biomeswevegone:shattered_glacier",
+    "terralith:siberian_grove",
+    "terralith:siberian_taiga"
+  ],
+  "replacement": "biomeswevegone:frosted_taiga"
+}

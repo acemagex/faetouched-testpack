@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:shifted_noise",
+    "noise": "minecraft:temperature",
+    "shift_x": {
+      "type": "minecraft:add",
+      "argument1": "minecraft:shift_x",
+      "argument2": 10000
+    },
+    "shift_y": 0,
+    "shift_z": {
+      "type": "minecraft:add",
+      "argument1": "minecraft:shift_z",
+      "argument2": 10000
+    },
+    "xz_scale": 0.03125,
+    "y_scale": 0
+  }
+}

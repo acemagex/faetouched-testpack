@@ -1,0 +1,13 @@
+name = "Alexs Caves Neo"
+filename = "alexscaves-2.0.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/EWeLZ8Wp/versions/CmTmcM4O/alexscaves-2.0.4.jar"
+hash-format = "sha512"
+hash = "e2e8b6076e1e12f37201c41bdac98c59da91b0bb95adb088f324e4c26b884473e1edcd73c124765ba7f79a7c70599a3f68d0a717fb676bb1e0c7d708780cb22e"
+
+[update]
+[update.modrinth]
+mod-id = "EWeLZ8Wp"
+version = "CmTmcM4O"

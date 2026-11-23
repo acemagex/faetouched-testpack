@@ -1,0 +1,13 @@
+name = "Lighting Wand 🌟"
+filename = "LightingWand-1.21.1-NeoForge-9.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/lak1V0eP/versions/NSFmUuxQ/LightingWand-1.21.1-NeoForge-9.0.3.jar"
+hash-format = "sha512"
+hash = "3dadfa145b36e137ce1b8988d77b233f0eb187dcd2452ce3ca141539155e586a8fea120006336921ab351d2c60e0f253280385b775c65fa178a110f251b4e0c1"
+
+[update]
+[update.modrinth]
+mod-id = "lak1V0eP"
+version = "NSFmUuxQ"

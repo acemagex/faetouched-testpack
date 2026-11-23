@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:clamp",
+  "input": {
+    "type": "minecraft:mul",
+    "argument1": {
+      "type": "minecraft:add",
+      "argument1": "faetouched:size/s",
+      "argument2": -0.155
+    },
+    "argument2": 10
+  },
+  "min": 0,
+  "max": 1
+}

@@ -1,0 +1,41 @@
+{
+    "type": "custommachinery:custom_machine",
+    "machine": "adeptcraft:test_machine",
+    "time": 20,
+	"requirements": [
+		{
+			"type": "custommachinery:contraption",
+			"mode": "input",
+			"speed": 64,
+			"stress": 2
+		},
+		{
+			"type": "custommachinery:structure",
+			"pattern": [
+				[
+				"aaa",
+				"aba",
+				"aaa",
+				" m "
+				],
+				[
+				"aba",
+				"bbb",
+				"aba",
+				"   "
+				]
+			],
+			"keys": {
+				"a": "minecraft:stone_bricks",
+				"b": "minecraft:air"
+			}
+		},
+		{
+			"type": "custommachinery:block",
+			"mode": "output",
+			"action": "place",
+			"pos": [-1, 2, -3, 1, 2, -1],
+			"block": "minecraft:stone_bricks"
+		}
+	]
+}

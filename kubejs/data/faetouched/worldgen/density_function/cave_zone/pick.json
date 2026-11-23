@@ -1,0 +1,10 @@
+{
+  "type": "lithostitched:cellular",
+  "grid_dimensions": {
+    "horizontal": 256,
+    "vertical": 96
+  },
+  "jitter": 0.4,
+  "return_type": "cell_value",
+  "salt": 4417
+}

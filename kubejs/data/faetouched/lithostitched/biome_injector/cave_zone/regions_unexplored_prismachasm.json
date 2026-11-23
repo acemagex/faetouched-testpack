@@ -1,0 +1,15 @@
+{
+  "type": "lithostitched:force_placement",
+  "dimension": "minecraft:overworld",
+  "biome": "regions_unexplored:prismachasm",
+  "priority": 900,
+  "parameters": {
+    "depth": {
+      "max_inclusive": -0.2
+    },
+    "faetouched:cave_zone/pick": {
+      "min_inclusive": 0.63,
+      "max_inclusive": 0.669375
+    }
+  }
+}

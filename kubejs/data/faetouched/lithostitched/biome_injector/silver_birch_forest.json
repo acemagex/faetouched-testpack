@@ -1,0 +1,10 @@
+{
+  "type": "lithostitched:replace_fully",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "minecraft:birch_forest",
+    "terralith:birch_taiga"
+  ],
+  "replacement": "regions_unexplored:silver_birch_forest"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "terralith:forested_highlands"
+  ],
+  "replacement": "regions_unexplored:eucalyptus_forest",
+  "parameters": {
+    "weirdness": {
+      "min_inclusive": 0.03,
+      "max_inclusive": 0.171
+    }
+  }
+}

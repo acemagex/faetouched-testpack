@@ -1,0 +1,9 @@
+{
+  "type": "lithostitched:replace_fully",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "terralith:shield_clearing"
+  ],
+  "replacement": "regions_unexplored:highland_fields"
+}

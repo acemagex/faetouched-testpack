@@ -1,0 +1,15 @@
+{
+  "type": "lithostitched:replace_partially",
+  "dimension": "minecraft:overworld",
+  "priority": 900,
+  "targets": [
+    "biomesoplenty:cold_desert"
+  ],
+  "replacement": "terralith:glacial_chasm",
+  "parameters": {
+    "weirdness": {
+      "min_inclusive": -2,
+      "max_inclusive": -0.0001
+    }
+  }
+}

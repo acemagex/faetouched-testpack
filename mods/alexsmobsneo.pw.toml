@@ -1,0 +1,13 @@
+name = "AlexsMobsNeo"
+filename = "alexsmobs-1.22.10.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/uEjwLgfv/versions/C1b7Q2me/alexsmobs-1.22.10.jar"
+hash-format = "sha512"
+hash = "3aa656ba9de15e58572b81fc129eb8331012759b7990e4a8f1d159f4f5468eaea5667dfe5ec34b6e023828ab1344467340452db786e679fe3ae2d84a8fde8848"
+
+[update]
+[update.modrinth]
+mod-id = "uEjwLgfv"
+version = "C1b7Q2me"

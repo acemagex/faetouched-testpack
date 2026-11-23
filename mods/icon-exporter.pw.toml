@@ -1,0 +1,13 @@
+name = "Icon Exporter"
+filename = "iconexporter-1.21.1-neoforge-1.4.2-220.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8KCmS7Bd/versions/Yx4hI5Ze/iconexporter-1.21.1-neoforge-1.4.2-220.jar"
+hash-format = "sha512"
+hash = "456a97a570fdc31de1d4f52e2b7cb3a9fd209af41599ca7b1657d40ec40cbb6f812afa4bd9fe8880a03abeeb31a38502b1603c1cbe198b99d8cc3fbbebe4820f"
+
+[update]
+[update.modrinth]
+mod-id = "8KCmS7Bd"
+version = "Yx4hI5Ze"
